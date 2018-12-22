@@ -12,6 +12,7 @@ public class Car {
     public Car(int maxNumberOfPeople) {
         this.maxNumberOfPeople = maxNumberOfPeople;
         peopleInCar = new ArrayList<>();
+
     }
 
     public void addPerson(Person person) throws CapacityLimitException {
