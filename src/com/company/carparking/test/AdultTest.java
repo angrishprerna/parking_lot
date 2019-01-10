@@ -22,5 +22,4 @@ public class AdultTest {
         Assert.assertEquals("Money is not equal", 5, money, 0.00001);
     }
 
-
 }
