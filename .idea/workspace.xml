@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="966f3216-7c0c-4d25-bfdd-f888396a71e8" name="Default Changelist" comment="">
+    <list default="true" id="966f3216-7c0c-4d25-bfdd-f888396a71e8" name="Default Changelist" comment="test2">
+      <change afterPath="$PROJECT_DIR$/src/com/company/carparking/test/ParkingLotTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Car Parking/com/company/carparking/CapacityLimitException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Car Parking/com/company/carparking/CapacityLimitException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Car Parking/com/company/carparking/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Car Parking/com/company/carparking/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Car Parking/com/company/carparking/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Car Parking/com/company/carparking/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Car Parking/com/company/carparking/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Car Parking/com/company/carparking/test/CarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Car Parking/com/company/carparking/test/CarTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/carparking/InvalidPriceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/carparking/InvalidPriceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/carparking/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/carparking/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/carparking/test/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/carparking/test/CarTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="323">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -25,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,19 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/com/company/carparking/test/AdultTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/carparking/test/CarTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/carparking/ParkingLot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#946#947#0" expanded="true" />
@@ -76,31 +76,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Adult.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/carparking/test/ParkingLotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/carparking/test/AdultTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="578">
+              <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/carparking/test/CarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -110,9 +105,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -126,25 +121,29 @@
         <option value="$PROJECT_DIR$/src/com/company/carparking/Nameable.java" />
         <option value="$PROJECT_DIR$/src/com/company/carparking/HasFees.java" />
         <option value="$PROJECT_DIR$/src/com/company/carparking/HasMoney.java" />
-        <option value="$PROJECT_DIR$/src/com/company/carparking/CapacityLimitException.java" />
-        <option value="$PROJECT_DIR$/src/com/company/carparking/InvalidPriceException.java" />
         <option value="$PROJECT_DIR$/src/com/company/carparking/AdultTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/carparking/ParkingLot.java" />
-        <option value="$PROJECT_DIR$/src/com/company/carparking/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/carparking/Adult.java" />
-        <option value="$PROJECT_DIR$/src/com/company/carparking/test/AdultTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/carparking/test/CarTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/carparking/Person.java" />
         <option value="$PROJECT_DIR$/src/com/company/carparking/Car.java" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.idea/project-template.xml" />
+        <option value="$PROJECT_DIR$/src/com/company/carparking/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/carparking/Application.java" />
+        <option value="$PROJECT_DIR$/src/com/company/carparking/test/AdultTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/carparking/CapacityLimitException.java" />
+        <option value="$PROJECT_DIR$/src/com/company/carparking/test/CarTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/carparking/InvalidPriceException.java" />
+        <option value="$PROJECT_DIR$/src/com/company/carparking/ParkingLot.java" />
+        <option value="$PROJECT_DIR$/src/com/company/carparking/test/ParkingLotTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="y" value="-14" />
-    <option name="width" value="1619" />
-    <option name="height" value="882" />
+    <option name="width" value="1623" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -152,8 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +164,24 @@
               <item name="Car Parking" type="b2602c69:ProjectViewProjectNode" />
               <item name="Car Parking" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Car Parking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Car Parking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Car Parking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Car Parking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="carparking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Car Parking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Car Parking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="carparking" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,11 +196,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545440640367" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547155318665" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -206,17 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarTest.createValidCar">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.carparking.Main" />
-      <module name="Car Parking" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AdultTest">
     <configuration name="AdultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Car Parking" />
       <extension name="coverage">
@@ -227,38 +234,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company.carparking.test" />
       <option name="MAIN_CLASS_NAME" value="com.company.carparking.test.AdultTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdultTest.moneyCantBeNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Car Parking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.carparking.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company.carparking.test" />
-      <option name="MAIN_CLASS_NAME" value="com.company.carparking.test.AdultTest" />
-      <option name="METHOD_NAME" value="moneyCantBeNegative" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdultTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Car Parking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.carparking.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company.carparking.test" />
-      <option name="MAIN_CLASS_NAME" value="com.company.carparking.test.AdultTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,20 +254,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParkingLotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Car Parking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.carparking.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.carparking.test" />
+      <option name="MAIN_CLASS_NAME" value="com.company.carparking.test.ParkingLotTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotTest.addCarsWithFunds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Car Parking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.carparking.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.carparking.test" />
+      <option name="MAIN_CLASS_NAME" value="com.company.carparking.test.ParkingLotTest" />
+      <option name="METHOD_NAME" value="addCarsWithFunds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotTest.addCarsWithoutFunds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Car Parking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.carparking.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.carparking.test" />
+      <option name="MAIN_CLASS_NAME" value="com.company.carparking.test.ParkingLotTest" />
+      <option name="METHOD_NAME" value="addCarsWithoutFunds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.AdultTest.test" />
-      <item itemvalue="JUnit.AdultTest" />
-      <item itemvalue="JUnit.AdultTest.moneyCantBeNegative" />
       <item itemvalue="JUnit.CarTest.createValidCar" />
+      <item itemvalue="JUnit.ParkingLotTest.addCarsWithFunds" />
+      <item itemvalue="JUnit.ParkingLotTest.addCarsWithoutFunds" />
+      <item itemvalue="JUnit.ParkingLotTest" />
+      <item itemvalue="JUnit.AdultTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarTest.createValidCar" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.AdultTest.moneyCantBeNegative" />
         <item itemvalue="JUnit.AdultTest" />
-        <item itemvalue="JUnit.AdultTest.test" />
+        <item itemvalue="JUnit.ParkingLotTest" />
+        <item itemvalue="JUnit.ParkingLotTest.addCarsWithFunds" />
+        <item itemvalue="JUnit.ParkingLotTest.addCarsWithoutFunds" />
+        <item itemvalue="JUnit.CarTest.createValidCar" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +329,9 @@
       <updated>1545248700532</updated>
       <workItem from="1545248704047" duration="11888000" />
       <workItem from="1545410768701" duration="5964000" />
-      <workItem from="1545440668607" duration="274000" />
+      <workItem from="1545440668607" duration="863000" />
+      <workItem from="1545520191051" duration="106000" />
+      <workItem from="1547142922719" duration="3036000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1545440786300</created>
@@ -317,39 +340,56 @@
       <option name="project" value="LOCAL" />
       <updated>1545440786300</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test2">
+      <created>1545441015932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545441015932</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdultTest_test - 2018.12.20 at 22h 04m 11s.xml">
-      <configuration name="AdultTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdultTest_test - 2018.12.20 at 22h 05m 34s.xml">
-      <configuration name="AdultTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdultTest_test - 2018.12.20 at 22h 05m 46s.xml">
-      <configuration name="AdultTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdultTest - 2018.12.20 at 22h 08m 41s.xml">
-      <configuration name="AdultTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdultTest_moneyCantBeNegative - 2018.12.20 at 22h 08m 48s.xml">
-      <configuration name="AdultTest.moneyCantBeNegative" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdultTest_moneyCantBeNegative - 2018.12.21 at 12h 27m 56s.xml">
-      <configuration name="AdultTest.moneyCantBeNegative" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CarTest_createValidCar - 2018.12.21 at 13h 07m 16s.xml">
       <configuration name="CarTest.createValidCar" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CarTest_createValidCar - 2019.01.10 at 13h 05m 51s.xml">
+      <configuration name="CarTest.createValidCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarTest_createValidCar - 2019.01.10 at 13h 06m 25s.xml">
+      <configuration name="CarTest.createValidCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarTest_createValidCar - 2019.01.10 at 16h 18m 17s.xml">
+      <configuration name="CarTest.createValidCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarTest_createValidCar - 2019.01.10 at 16h 19m 53s.xml">
+      <configuration name="CarTest.createValidCar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingLotTest_addCarsWithFunds - 2019.01.10 at 16h 20m 04s.xml">
+      <configuration name="ParkingLotTest.addCarsWithFunds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingLotTest_addCarsWithoutFunds - 2019.01.10 at 16h 21m 36s.xml">
+      <configuration name="ParkingLotTest.addCarsWithoutFunds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingLotTest_addCarsWithFunds - 2019.01.10 at 16h 21m 41s.xml">
+      <configuration name="ParkingLotTest.addCarsWithFunds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingLotTest - 2019.01.10 at 16h 21m 52s.xml">
+      <configuration name="ParkingLotTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AdultTest - 2019.01.10 at 16h 21m 59s.xml">
+      <configuration name="AdultTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18126000" />
+    <option name="totallyTimeSpent" value="21857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1477" height="797" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17124736" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17547569" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -358,7 +398,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22222222" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24624625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -366,7 +406,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32882884" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18018018" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18018018" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32882884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -425,24 +465,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/carparking/CapacityLimite.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/HasFees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/HasMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Nameable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -457,35 +484,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/InvalidPriceException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/project-template.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Adult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/carparking/CapacityLimitException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/HasFees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/test/CarTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/HasMoney.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/ParkingLotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -494,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/carparking/ParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#946#947#0" expanded="true" />
@@ -510,50 +598,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Adult.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/test/CarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/InvalidPriceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/test/ParkingLotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="60" lean-forward="true" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/carparking/test/AdultTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/carparking/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="74" column="17" lean-forward="true" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
         </state>
       </provider>
     </entry>

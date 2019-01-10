@@ -7,15 +7,11 @@ import com.company.carparking.Person;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class CarTest {
 
     @Test
-    public void createValidCar() throws CapacityLimitException {
+    public void createValidCar()  {
         Car car =  new Car(4);
-        Person person = new Adult("Adam", 8);
-        car.addPerson(person);
         int maxPeople = car.getMaxNumberOfPeople();
         Assert.assertEquals("Car capacity is les", 4, maxPeople );
     }

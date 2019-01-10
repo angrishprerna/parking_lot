@@ -1,7 +1,5 @@
 package com.company.carparking;
 
-import com.sun.javaws.exceptions.InvalidArgumentException;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -45,7 +43,7 @@ public class ParkingLot implements HasFees, Nameable {
             if (driver.getMoney() >= entryPrice) {
                 carsParked.add(car);
             } else {
-                System.out.println(" Driver does not have enough money to park.");
+                System.out.println("Driver does not have enough money to park.");
             }
 
         } else {
